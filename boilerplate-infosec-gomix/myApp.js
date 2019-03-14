@@ -29,7 +29,7 @@ const helmet = require('helmet');
 // You can also explicitly set the header to something else, to throw
 // people off. e.g. `helmet.hidePoweredBy({ setTo: 'PHP 4.2.0' })`
 
-// Use `helmet.hidePoweredBy()``
+helmet.hidePoweredBy();
 
 
 
